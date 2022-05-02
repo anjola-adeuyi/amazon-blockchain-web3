@@ -1,6 +1,10 @@
+import { ConnectButton } from "web3uikit"
+
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div>
+      <ConnectButton />
+    </div>
   )
 }
 
