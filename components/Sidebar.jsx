@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import { ConnectButton } from 'web3uikit'
 
+// style container css-in-js
 const styles = {
-	container: ``
+	container: `h-full w-full flex bg-[#fff]`
 }
 
 const isAuthenticated = true
